@@ -1,46 +1,82 @@
-# Astro Starter Kit: Basics
+# 📄 cv_astro – Generador de CV basado en `resume.json`
 
-```sh
-bun create astro@latest -- --template basics
+Este proyecto permite generar un **Currículum Vitae** automáticamente a partir de un archivo `resume.json`.  
+Solo tenés que editar tu información en ese archivo, y el sistema genera un CV listo para imprimir utilizando **Astro**.
+
+---
+
+## 🚀 Características
+
+- Construido con **Astro**.
+- Generación automática del CV a partir de un único archivo JSON.
+- Diseño limpio y optimizado para impresión.
+- Separación completa entre datos y presentación.
+
+---
+
+## 🗂️ Estructura del Proyecto
+
 ```
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
+cv_astro/
+├── src/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   └── resume.json   ← Archivo editable con tu información
 ├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+├── astro.config.mjs
+├── package.json
+└── README.md
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+---
 
-## 🧞 Commands
+## ✏️ Cómo usar el proyecto
 
-All commands are run from the root of the project, from a terminal:
+### 1. Clonar el repositorio
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+```bash
+git clone https://github.com/tu-usuario/cv_astro.git
+cd cv_astro
+```
 
-## 👀 Want to learn more?
+### 2. Instalar dependencias
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+```bash
+npm install
+```
+
+### 3. Editar `resume.json`
+
+Modificá tus datos personales, educación, experiencia, habilidades y proyectos.  
+El sitio se actualizará automáticamente.
+
+### 4. Ejecutar el proyecto
+
+```bash
+npm run dev
+```
+
+Luego abrí:
+
+```
+http://localhost:4321
+```
+
+---
+
+## 🖨️ Generar la versión imprimible
+
+La vista está optimizada para impresión.  
+Desde el navegador presioná:
+
+```
+Ctrl + P
+```
+
+y elegí **Guardar como PDF**.
+
+---
+
+
+
