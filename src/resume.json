@@ -1,0 +1,210 @@
+{
+    "basics": {
+        "name": "Matias Nicolas Ocampo",
+        "label": "Full Stack Junior",
+        "image": "",
+        "email": "nicoo2003@gmail.com",
+        "phone": "(912) 555-4321",
+        "url": "https://johndoe.com",
+        "summary": "Desarrollador Full Stack, con bases sólidas en programación orientada a objetos y experiencia práctica en desarrollo web utilizando JavaScript, React, TypeScript, Node.js, Express y buenas prácticas de arquitectura. Con el cursado completo del 4.º año de Ingeniería en Sistemas (UTN), actualmente ampliando mis conocimientos hacia Python (FastApi) y Angular para fortalecer mi perfil FullStack. Me caracterizo por el aprendizaje continuo, la adaptación rápida a nuevas tecnologías y el trabajo en equipo. Busco incorporarme a un rol Trainee donde pueda seguir creciendo con acompañamiento técnico y participar en proyectos reales.",
+        "location": {
+            "address": "",
+            "postalCode": "M5505",
+            "city": "Mendoza",
+            "countryCode": "AR",
+            "country": "Argentina",
+            "region": "Mendoza"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "NicolashhOcampo",
+                "url": "https://github.com/NicolashhOcampo"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "nicolas-ocampo-020b76272",
+                "url": "https://www.linkedin.com/in/nicolas-ocampo-020b76272/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Company",
+            "position": "President",
+            "url": "https://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Started the company"
+            ]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": [
+                "Awarded 'Volunteer of the Month'"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Tecnológica Nacional",
+            "url": "https://www4.frm.utn.edu.ar/",
+            "area": "Ingeniería en Sistemas de Información",
+            "studyType": "University",
+            "startDate": "2022",
+            "endDate": "Presente",
+            "score": "",
+            "courses": []
+        },
+        {
+            "institution": "Escuela Técnica 4-020 Ing. Gabriel del Mazo",
+            "url": "",
+            "area": "Técnico en Electrónica",
+            "studyType": "Secundario",
+            "startDate": "2015",
+            "endDate": "2021",
+            "score": "",
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Arquitectura y Herramientas",
+            "level": "Master",
+            "keywords": [
+                "Microservicios",
+                "RabbitMQ",
+                "REST APIs",
+                "Git",
+                "Trello"
+            ]
+        },
+        {
+            "name": "Lenguajes de Programación",
+            "level": "Master",
+            "keywords": [
+                "JavaScript",
+                "TypeScript",
+                "Python",
+                "Java"
+            ]
+        },
+        {
+            "name": "Frontend",
+            "level": "Junior",
+            "keywords": [
+                "HTML",
+                "CSS",
+                "React",
+                "TailwindCSS",
+                "Figma"
+            ]
+        },
+        {
+            "name": "Backend",
+            "level": "Basic",
+            "keywords": [
+                "Node.js",
+                "Express",
+                "FastAPI",
+                "Spring Boot (basic)"
+            ]
+        },
+        {
+            "name": "Bases de Datos",
+            "level": "Basic",
+            "keywords": [
+                "Sqlite",
+                "PostgreSQL",
+                "PrismaORM"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Español",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": [
+                "Ferrets",
+                "Unicorns"
+            ]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Wordle",
+            "startDate": "",
+            "endDate": "",
+            "description": "Recreación del popular juego Wordle con la posibilidad de jugar ingresando una palabra personalizada u obteniendo una palabra aleatoria obtenida de una api. Tecnologías: React y TypeScript.",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://wordle-black-phi.vercel.app/"
+        },
+        {
+            "name": "Buscaminas",
+            "startDate": "",
+            "endDate": "",
+            "description": "Recreación del clásico juego Buscaminas, con la posibilidad de crear un tablero de tamaño personalizado. Tecnologías: Angular y TypeScript.",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://minesweeper-three-omega.vercel.app/"
+        },
+        {
+            "name": "Sistema de Gestion de inventarios",
+            "startDate": "",
+            "endDate": "",
+            "description": "Sistema de gestión de inventarios desarrollado en equipo utilizando Node.js, Prisma y PostgreSQL. Permite administrar productos y proveedores mediante una interfaz para el registro y actualización de datos del inventario. Incluye un módulo de generación automática de órdenes de compra que se activa cuando un artículo alcanza un nivel mínimo de stock, optimizando el abastecimiento y evitando quiebres de inventario.",
+            "highlights": [
+                "Won award at AIHacks 2016"
+            ],
+            "url": "https://github.com/brunolucero19/sistema-inventario-inv-operativa-back"
+        }
+    ]
+}

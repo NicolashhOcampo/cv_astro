@@ -1,0 +1,10 @@
+---
+import Contact from "./Contact.astro";
+import resume from "../resume.json";
+---
+
+<section>
+    <h2 class="text-3xl text-center font-volkhov">{resume.basics.name}</h2>
+    <p class="text-lg text-center text-gray-500">{resume.basics.label}</p>
+    <Contact />
+</section>

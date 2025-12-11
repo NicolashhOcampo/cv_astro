@@ -1,0 +1,16 @@
+---
+import resume from "../resume.json";
+---
+
+<section>
+    <h2 class="text-center mt-4 font-volkhov text-xl">Habilidades</h2>
+    <div class="h-[1px] bg-black w-full"></div>
+    {
+        resume.skills.map((skill) => (
+            <p class="font-pt-sans text-justify mt-2">
+                <span class="text-gray-500">{skill.name}</span> :{" "}
+                {skill.keywords.join(", ")}
+            </p>
+        ))
+    }
+</section>

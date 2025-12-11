@@ -1,0 +1,43 @@
+---
+import resume from "../resume.json";
+---
+
+<div class="flex gap-2 justify-center items-center">
+    {
+        resume.basics.location && (
+            <>
+                <span class="font-pt-sans">{`${resume.basics.location.city}, ${resume.basics.location.country}`}</span>
+                <div class="size-1 bg-black rounded-full" />
+            </>
+        )
+    }
+
+    {
+        resume.basics.email && (
+            <a
+                href={`mailto:${resume.basics.email}`}
+                class="font-pt-sans hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {resume.basics.email}
+            </a>
+        )
+    }
+
+    {
+        resume.basics.profiles.map((profile) => (
+            <>
+                <div class="size-1 bg-black rounded-full" />
+                <a
+                    href={profile.url}
+                    class="font-pt-sans hover:underline"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {profile.network}
+                </a>
+            </>
+        ))
+    }
+</div>
