@@ -1,0 +1,30 @@
+---
+import resume from "../resume.json";
+---
+
+<section>
+    <h2 class="text-center mt-4 font-volkhov text-xl">Certificados</h2>
+    <hr />
+    <div class="mt-2 font-pt-sans flex flex-col gap-2">
+        {
+            resume.certificates.map((cer) => (
+                <div class="flex justify-between">
+                    <div class="flex items-center">
+                        <a
+                            href={cer.url}
+                            target="_blank"
+                            class="text-xl text-gray-500"
+                        >
+                            {cer.name}
+                        </a>
+                        <div class="h-0.5 bg-black w-3 mx-2" />
+                        <p>{cer.issuer}</p>
+                    </div>
+                    <div class="flex items-center">
+                        <p>{cer.date}</p>
+                    </div>
+                </div>
+            ))
+        }
+    </div>
+</section>
