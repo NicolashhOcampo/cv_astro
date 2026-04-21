@@ -30,16 +30,30 @@
     },
     "work": [
         {
+            "name": "Truckers Talents",
+            "position": "Desarrollador Backend (Pasantía)",
+            "url": "",
+            "startDate": "03/2026",
+            "endDate": "Presente",
+            "summary": "Desarrollo de servicios backend para una aplicación web orientada a la gestión y procesamiento de documentos digitales, enfocada en la creación y manejo de templates dinámicos.",
+            "highlights": [
+                "Diseño y desarrollo de APIs REST utilizando Node.js y Express.",
+                "Implementación de un sistema de gestión de templates con carga, configuración y activación de documentos.",
+                "Integración con AWS S3 para almacenamiento de archivos y manejo de URLs firmadas.",
+                "Modelado de datos y persistencia utilizando bases de datos relacionales.",
+                "Colaboración con frontend en Next.js para integración de funcionalidades."
+            ]
+        },
+        {
             "name": "Grupo IEMI - Facultad de Ingeniería",
             "position": "Desarrollador Frontend (Beca / Contraprestación)",
             "url": "",
             "startDate": "06/2025",
-            "endDate": "12/2026",
+            "endDate": "12/2025",
             "summary": "Desarrollo de una aplicación web para ayudar a docentes a procesar asistencias a partir de archivos Excel.",
             "highlights": [
                 "Desarrollo de una aplicación web utilizando React.",
-                "Implementación de funcionalidades para cargar y procesar archivos Excel.",
-                "Automatización del procesamiento de asistencias para facilitar el trabajo de los profesores."
+                "Implementación de funcionalidades para cargar y procesar archivos Excel."
             ]
         }
     ],
@@ -181,30 +195,20 @@
     ],
     "projects": [
         {
-            "name": "Wordle (React - TypeScript)",
+            "name": "Microservicio de Preguntas para Ecommerce (FastAPI - Python)",
             "startDate": "",
             "endDate": "",
-            "description": "Recreación del popular juego Wordle con la posibilidad de jugar ingresando una palabra personalizada u obteniendo una palabra aleatoria obtenida de una api. Tecnologías: React y TypeScript.",
-            "highlights": [
-                "Won award at AIHacks 2016"
-            ],
-            "url": "https://wordle-black-phi.vercel.app/"
+            "description": "Microservicio de preguntas y respuestas con Python, FastAPI y RabbitMQ para comunicación asincrónica entre servicios.",
+            "highlights": [],
+            "url": "https://github.com/NicolashhOcampo/MicroservicioPreguntas"
         },
         {
             "name": "Sistema de Gestión de Inventarios (Express - JavaScript)",
             "startDate": "",
             "endDate": "",
-            "description": "Sistema de gestión de inventarios desarrollado en equipo con Node.js, PostgreSQL y Prisma ORM basado en APIs REST. Incluye gestión de productos y proveedores y generación automática de órdenes de compra cuando el stock alcanza el mínimo.",
+            "description": "Sistema de inventarios en equipo con Node.js, PostgreSQL y Prisma ORM. Gestiona productos, proveedores y órdenes automáticas por stock mínimo.",
             "highlights": [],
             "url": "https://github.com/brunolucero19/sistema-inventario-inv-operativa-back"
-        },
-        {
-            "name": "Microservicio de Preguntas para Ecommerce (FastAPI - Python)",
-            "startDate": "",
-            "endDate": "",
-            "description": "Microservicio de preguntas y respuestas desarrollado con Python y FastAPI. Permite crear, consultar, responder y eliminar preguntas, utilizando RabbitMQ para comunicación asincrónica entre servicios.",
-            "highlights": [],
-            "url": "https://github.com/NicolashhOcampo/MicroservicioPreguntas"
         }
     ]
 }
