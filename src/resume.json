@@ -31,17 +31,17 @@
     "work": [
         {
             "name": "Truckers Talents",
-            "position": "Desarrollador Backend (Pasantía)",
+            "position": "Desarrollador FullStack (Pasantía)",
             "url": "",
             "startDate": "03/2026",
             "endDate": "Presente",
-            "summary": "Desarrollo de servicios backend para una aplicación web orientada a la gestión y procesamiento de documentos digitales, enfocada en la creación y manejo de templates dinámicos.",
+            "summary": "Desarrollo fullstack de una aplicación web orientada a la gestión y procesamiento de documentos digitales, con foco en la creación, configuración y manejo de templates dinámicos.",
             "highlights": [
-                "Diseño y desarrollo de APIs REST utilizando Node.js y Express.",
-                "Implementación de un sistema de gestión de templates con carga, configuración y activación de documentos.",
+                "Diseño e implementación de funcionalidades end-to-end integrando frontend, backend y persistencia de datos.",
+                "Desarrollo de APIs REST con Node.js y Express para la gestión de templates, documentos y procesos asociados.",
+                "Construcción e integración de interfaces en Next.js para carga, configuración y activación de documentos.",
                 "Integración con AWS S3 para almacenamiento de archivos y manejo de URLs firmadas.",
-                "Modelado de datos y persistencia utilizando bases de datos relacionales.",
-                "Colaboración con frontend en Next.js para integración de funcionalidades."
+                "Modelado de datos y persistencia utilizando TypeORM y PostgreSQL."
             ]
         },
         {
