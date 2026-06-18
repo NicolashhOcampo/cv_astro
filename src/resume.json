@@ -35,25 +35,25 @@
             "url": "",
             "startDate": "03/2026",
             "endDate": "Present",
-            "summary": "Development of backend services for a web application focused on the management and processing of digital documents, with an emphasis on creating and handling dynamic templates.",
+            "summary": "Full-stack development of a web application focused on the management and processing of digital documents, with an emphasis on the creation, configuration, and handling of dynamic templates.",
             "highlights": [
-                "Designed and developed REST APIs using Node.js and Express.",
-                "Implemented a template management system with document upload, configuration, and activation features.",
-                "Integrated AWS S3 for file storage and signed URL handling.",
-                "Handled data modeling and persistence using relational databases.",
-                "Collaborated with the Next.js frontend team to integrate features."
+                "End-to-end design and implementation of features integrating frontend, backend, and data persistence.",
+                "Development of REST APIs using Node.js and Express for managing templates, documents, and associated processes.",
+                "Construction and integration of Next.js interfaces for uploading, configuring, and activating documents.",
+                "Integration with AWS S3 for file storage and handling of signed URLs.",
+                "Data modeling and persistence using TypeORM and PostgreSQL."
             ]
         },
         {
-            "name": "Grupo IEMI - Facultad de Ingeniería",
+            "name": "Grupo IEMI, School of Engineering",
             "position": "Frontend Developer (Scholarship / Work-Study)",
             "url": "",
             "startDate": "06/2025",
             "endDate": "12/2025",
-            "summary": "Developed a web application to help teachers process attendance records from Excel files.",
+            "summary": "Development of a web application to help teachers process attendance records from Excel files.",
             "highlights": [
-                "Built a web application using React.",
-                "Implemented features to upload and process Excel files."
+                "Development of a web application using React.",
+                "Implementation of features to upload and process Excel files."
             ]
         }
     ],
@@ -72,7 +72,7 @@
     ],
     "education": [
         {
-            "institution": "Universidad Tecnológica Nacional",
+            "institution": "National Technological University",
             "url": "https://www4.frm.utn.edu.ar/",
             "area": "Information Systems Engineering",
             "studyType": "University",
@@ -82,7 +82,7 @@
             "courses": []
         },
         {
-            "institution": "Escuela Técnica 4-020 Ing. Gabriel del Mazo",
+            "institution": "Technical High School 4-020 Eng. Gabriel del Mazo",
             "url": "",
             "area": "Electronics Technician",
             "studyType": "High School",
@@ -195,7 +195,7 @@
     ],
     "projects": [
         {
-            "name": "Questions Microservice for Ecommerce (FastAPI - Python)",
+            "name": "Questions Microservice for E-commerce (FastAPI - Python)",
             "startDate": "",
             "endDate": "",
             "description": "Questions and answers microservice built with Python, FastAPI, and RabbitMQ for asynchronous communication between services.",
@@ -206,7 +206,7 @@
             "name": "Inventory Management System (Express - JavaScript)",
             "startDate": "",
             "endDate": "",
-            "description": "Team-built inventory system using Node.js, PostgreSQL, and Prisma ORM. Manages products, suppliers, and automatic orders based on minimum stock levels.",
+            "description": "Team-built inventory system using Node.js, PostgreSQL, and Prisma ORM. Manages products, suppliers, and automatic purchase orders based on minimum stock levels.",
             "highlights": [],
             "url": "https://github.com/brunolucero19/sistema-inventario-inv-operativa-back"
         }
