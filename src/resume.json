@@ -1,12 +1,12 @@
 {
     "basics": {
         "name": "Matias Nicolas Ocampo",
-        "label": "Full Stack Developer",
+        "label": "Backend Developer",
         "image": "",
         "email": "nicoo2003@gmail.com",
         "phone": "(912) 555-4321",
         "url": "https://johndoe.com",
-        "summary": "Desarrollador Full Stack Junior con experiencia en desarrollo backend utilizando Node.js y Python (FastAPI), e integración y consumo de APIs REST. Con conocimientos en desarrollo de interfaces frontend con HTML, CSS, JavaScript y React. Estudiante avanzado de Ingeniería en Sistemas de Información (UTN). Utilizo herramientas de IA de manera activa en mi flujo de desarrollo, incluyendo Opencode, Antigravity, Claude y ChatGPT, para la generación de soluciones, la revisión de código y la mejora de la productividad. Me caracterizo por el aprendizaje continuo, la adaptación rápida a nuevas tecnologías y el trabajo en equipo.",
+        "summary": "Desarrollador Backend Junior con experiencia en diseño y desarrollo de APIs REST utilizando Node.js, TypeScript (Express) y Python (FastAPI), modelado de datos con TypeORM/PostgreSQL, autenticación con JWT y validación de datos con Zod. También cuento con experiencia complementaria en frontend con React, lo que me permite integrar soluciones end-to-end cuando es necesario. Estudiante avanzado de Ingeniería en Sistemas de Información (UTN). Utilizo herramientas de IA de manera activa en mi flujo de desarrollo, incluyendo Opencode, Antigravity, Claude y ChatGPT, para la generación de soluciones, la revisión de código y la mejora de la productividad. Me caracterizo por el aprendizaje continuo, la adaptación rápida a nuevas tecnologías y el trabajo en equipo.",
         "location": {
             "address": "",
             "postalCode": "M5505",
@@ -31,29 +31,20 @@
     "work": [
         {
             "name": "Truckers Talents",
-            "position": "Desarrollador FullStack (Pasantía)",
+            "position": "Desarrollador Backend (Pasantía) → Full Stack",
             "url": "",
             "startDate": "03/2026",
             "endDate": "06/2026",
-            "summary": "Desarrollo fullstack de una aplicación web orientada a la gestión y procesamiento de documentos digitales, con foco en la creación, configuración y manejo de templates dinámicos.",
+            "summary": "Ingresé como desarrollador backend y, a medida que el proyecto lo requirió, sumé responsabilidades full stack. Trabajé en una aplicación web orientada a la gestión y procesamiento de documentos digitales, con foco en APIs REST, modelado de datos y templates dinámicos.",
             "highlights": [
-                "Diseño e implementación de funcionalidades end-to-end integrando frontend, backend y persistencia de datos.",
-                "Desarrollo de APIs REST con Node.js y Express para la gestión de templates, documentos y procesos asociados.",
-                "Construcción e integración de interfaces en Next.js para carga, configuración y activación de documentos.",
-                "Integración con AWS S3 para almacenamiento de archivos y manejo de URLs firmadas.",
-                "Modelado de datos y persistencia utilizando TypeORM y PostgreSQL."
-            ]
-        },
-        {
-            "name": "Grupo IEMI, Facultad de Ingeniería",
-            "position": "Desarrollador Frontend (Beca / Contraprestación)",
-            "url": "",
-            "startDate": "06/2025",
-            "endDate": "12/2025",
-            "summary": "Desarrollo de una aplicación web para ayudar a docentes a procesar asistencias a partir de archivos Excel.",
-            "highlights": [
-                "Desarrollo de una aplicación web utilizando React.",
-                "Implementación de funcionalidades para cargar y procesar archivos Excel."
+                "Desarrollo de APIs REST con Node.js, TypeScript y Express para la gestión de templates, documentos y procesos asociados.",
+                "Modelado de datos y persistencia utilizando TypeORM y PostgreSQL.",
+                "Validación de datos con Zod, autenticación con JSON Web Tokens y manejo seguro de contraseñas con bcryptjs.",
+                "Implementación de carga de archivos con Multer e integración con AWS S3 para almacenamiento y URLs firmadas.",
+                "Envío de notificaciones por email mediante Nodemailer.",
+                "Diseño de un middleware de audit logging para rutas de moderación, con tabla particionada mensualmente en PostgreSQL.",
+                "Desarrollo de un sistema de rotación de backups en S3 basado en cron jobs, diseñado para evitar la degradación de performance de la tabla de audit logs a medida que crece el volumen de auditorías.",
+                "A medida que el proyecto avanzó, sumé desarrollo de interfaces en Next.js para carga, configuración y activación de documentos, ampliando mi rol a full stack."
             ]
         }
     ],
@@ -78,16 +69,6 @@
             "studyType": "University",
             "startDate": "2022",
             "endDate": "Presente",
-            "score": "",
-            "courses": []
-        },
-        {
-            "institution": "Escuela Técnica 4-020 Ing. Gabriel del Mazo",
-            "url": "",
-            "area": "Técnico en Electrónica",
-            "studyType": "Secundario",
-            "startDate": "2015",
-            "endDate": "2021",
             "score": "",
             "courses": []
         }
@@ -119,6 +100,41 @@
     ],
     "skills": [
         {
+            "name": "Backend",
+            "level": "Junior",
+            "keywords": [
+                "Node.js",
+                "Express",
+                "TypeORM",
+                "FastAPI",
+                "Zod",
+                "JSON Web Tokens",
+                "bcryptjs",
+                "Multer",
+                "Nodemailer",
+                "Spring Boot (basic)"
+            ]
+        },
+        {
+            "name": "Bases de Datos",
+            "level": "Basic",
+            "keywords": [
+                "PostgreSQL",
+                "Sqlite",
+                "PrismaORM"
+            ]
+        },
+        {
+            "name": "Lenguajes de Programación",
+            "level": "Master",
+            "keywords": [
+                "TypeScript",
+                "JavaScript",
+                "Python",
+                "Java"
+            ]
+        },
+        {
             "name": "Arquitectura y Herramientas",
             "level": "Master",
             "keywords": [
@@ -132,43 +148,14 @@
             ]
         },
         {
-            "name": "Lenguajes de Programación",
-            "level": "Master",
-            "keywords": [
-                "JavaScript",
-                "TypeScript",
-                "Python",
-                "Java"
-            ]
-        },
-        {
             "name": "Frontend",
             "level": "Junior",
             "keywords": [
-                "HTML",
-                "CSS",
                 "React",
                 "TailwindCSS",
+                "HTML",
+                "CSS",
                 "Figma"
-            ]
-        },
-        {
-            "name": "Backend",
-            "level": "Basic",
-            "keywords": [
-                "Node.js",
-                "Express",
-                "FastAPI",
-                "Spring Boot (basic)"
-            ]
-        },
-        {
-            "name": "Bases de Datos",
-            "level": "Basic",
-            "keywords": [
-                "Sqlite",
-                "PostgreSQL",
-                "PrismaORM"
             ]
         }
     ],
