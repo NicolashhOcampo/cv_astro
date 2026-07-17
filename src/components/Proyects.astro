@@ -3,14 +3,14 @@ import resume from "../resume.json";
 ---
 
 <section>
-    <h2 class="text-center mt-4 font-volkhov text-xl">Proyectos</h2>
+    <h2 class="text-center mt-4 font-volkhov text-lg">Proyectos</h2>
     <hr />
 </section>
 <div class="mt-2 font-pt-sans flex flex-col gap-3">
     {
         resume.projects.map((project) => (
             <div>
-                <h3 class="text-xl text-gray-500 mb-1">{project.name}</h3>
+                <h3 class="text-lg text-gray-500 mb-1">{project.name}</h3>
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
                     <strong>Link: </strong>
                     {project.url}
