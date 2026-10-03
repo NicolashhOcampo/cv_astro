@@ -4,7 +4,7 @@
     "label": "Full Stack Developer",
     "image": "",
     "email": "nicoo2003@gmail.com",
-    "phone": "(912) 555-4321",
+    "phone": "+54 2612415420",
     "url": "https://johndoe.com",
     "summary": "Desarrollador Full Stack Junior con experiencia end-to-end: backend con Node.js, TypeScript (Express) y Python (FastAPI), modelado de datos con TypeORM/PostgreSQL, autenticación con JWT y validación con Zod; y frontend con React, Next.js y TailwindCSS. Estudiante avanzado de Ingeniería en Sistemas de Información (UTN). Utilizo herramientas de IA de manera activa en mi flujo de desarrollo, incluyendo Opencode, Antigravity, Claude y ChatGPT, para la generación de soluciones, la revisión de código y la mejora de la productividad.",
     "location": {
@@ -39,9 +39,9 @@
       "highlights": [
         "Desarrollo de APIs REST con Node.js, TypeScript y Express para la gestión de templates, documentos y procesos asociados.",
         "Modelado de datos y persistencia utilizando TypeORM y PostgreSQL.",
-        "Validación de datos con Zod, autenticación con JSON Web Tokens, manejo seguro de contraseñas con bcryptjs, carga de archivos con Multer e integración con AWS S3 para almacenamiento y URLs firmadas.",
+        "Integración con AWS S3 para almacenamiento de archivos y manejo de URLs firmadas.",
         "Diseño de un middleware de audit logging para rutas de moderación, con tabla particionada mensualmente en PostgreSQL, y un sistema de rotación de backups en S3 basado en cron jobs.",
-        "Construcción e integración de interfaces en Next.js para carga, configuración y activación de documentos, conectando el frontend con las APIs REST desarrolladas."
+        "Construcción e integración de interfaces en Next.js para carga, configuración y activación de documentos."
       ]
     },
     {
@@ -53,7 +53,7 @@
       "summary": "Desarrollo de una aplicación web para ayudar a docentes a procesar asistencias a partir de archivos Excel.",
       "highlights": [
         "Desarrollo end-to-end de una aplicación web con React y TypeScript, desplegada en Vercel.",
-        "Implementación de lógica para cruzar dos archivos Excel de entrada (registro de asistencias con legajo, nombre y horario; y listado de alumnos inscriptos) y generar automáticamente tres tablas de salida por día de la semana: alumnos presentes, ausentes y no encontrados (legajos sin coincidencia)."
+        "Automatización del cruce de registros de asistencia con listados de inscriptos, generando reportes diarios de presentes, ausentes y casos sin coincidencia."
       ]
     }
   ],
@@ -142,7 +142,8 @@
       "keywords": [
         "PostgreSQL",
         "Sqlite",
-        "PrismaORM"
+        "PrismaORM",
+        "TypeORM"
       ]
     },
     {
