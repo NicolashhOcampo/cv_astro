@@ -7,7 +7,7 @@ import resume from "../resume.json";
         resume.basics.location && (
             <>
                 <span class="font-pt-sans">{`${resume.basics.location.city}, ${resume.basics.location.country}`}</span>
-                <div class="size-1 bg-black rounded-full" />
+                <p>|</p>
             </>
         )
     }
@@ -26,9 +26,23 @@ import resume from "../resume.json";
     }
 
     {
+        resume.basics.phone && (
+            <p>|</p>
+            <a
+                href={`tel:${resume.basics.phone}`}
+                class="font-pt-sans hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                {resume.basics.phone}
+            </a>
+        )
+    }
+
+    {
         resume.basics.profiles.map((profile) => (
             <>
-                <div class="size-1 bg-black rounded-full" />
+                <p>|</p>
                 <a
                     href={profile.url}
                     class="font-pt-sans hover:underline"

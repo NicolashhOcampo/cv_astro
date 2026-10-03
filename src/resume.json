@@ -1,214 +1,212 @@
 {
-    "basics": {
-        "name": "Matias Nicolas Ocampo",
-        "label": "Full Stack Developer",
-        "image": "",
-        "email": "nicoo2003@gmail.com",
-        "phone": "(912) 555-4321",
-        "url": "https://johndoe.com",
-        "summary": "Desarrollador Full Stack Junior con experiencia en desarrollo backend utilizando Node.js y Python (FastAPI), e integración y consumo de APIs REST. Con conocimientos en desarrollo de interfaces frontend con HTML, CSS, JavaScript y React. Estudiante avanzado de Ingeniería en Sistemas de Información (UTN). Utilizo herramientas de IA de manera activa en mi flujo de desarrollo, incluyendo Opencode, Antigravity, Claude y ChatGPT, para la generación de soluciones, la revisión de código y la mejora de la productividad. Me caracterizo por el aprendizaje continuo, la adaptación rápida a nuevas tecnologías y el trabajo en equipo.",
-        "location": {
-            "address": "",
-            "postalCode": "M5505",
-            "city": "Mendoza",
-            "countryCode": "AR",
-            "country": "Argentina",
-            "region": "Mendoza"
-        },
-        "profiles": [
-            {
-                "network": "GitHub",
-                "username": "NicolashhOcampo",
-                "url": "https://github.com/NicolashhOcampo"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "nicolas-ocampo-020b76272",
-                "url": "https://www.linkedin.com/in/nicolas-ocampo-020b76272/"
-            }
-        ]
+  "basics": {
+    "name": "Matias Nicolas Ocampo",
+    "label": "Full Stack Developer",
+    "image": "",
+    "email": "nicoo2003@gmail.com",
+    "phone": "+54 2612415420",
+    "url": "https://johndoe.com",
+    "summary": "Desarrollador Full Stack Junior con experiencia end-to-end: backend con Node.js, TypeScript (Express) y Python (FastAPI), modelado de datos con TypeORM/PostgreSQL, autenticación con JWT y validación con Zod; y frontend con React, Next.js y TailwindCSS. Estudiante avanzado de Ingeniería en Sistemas de Información (UTN). Utilizo herramientas de IA de manera activa en mi flujo de desarrollo, incluyendo Opencode, Antigravity, Claude y ChatGPT, para la generación de soluciones, la revisión de código y la mejora de la productividad.",
+    "location": {
+      "address": "",
+      "postalCode": "M5505",
+      "city": "Mendoza",
+      "countryCode": "AR",
+      "country": "Argentina",
+      "region": "Mendoza"
     },
-    "work": [
-        {
-            "name": "Truckers Talents",
-            "position": "Desarrollador FullStack (Pasantía)",
-            "url": "",
-            "startDate": "03/2026",
-            "endDate": "06/2026",
-            "summary": "Desarrollo fullstack de una aplicación web orientada a la gestión y procesamiento de documentos digitales, con foco en la creación, configuración y manejo de templates dinámicos.",
-            "highlights": [
-                "Diseño e implementación de funcionalidades end-to-end integrando frontend, backend y persistencia de datos.",
-                "Desarrollo de APIs REST con Node.js y Express para la gestión de templates, documentos y procesos asociados.",
-                "Construcción e integración de interfaces en Next.js para carga, configuración y activación de documentos.",
-                "Integración con AWS S3 para almacenamiento de archivos y manejo de URLs firmadas.",
-                "Modelado de datos y persistencia utilizando TypeORM y PostgreSQL."
-            ]
-        },
-        {
-            "name": "Grupo IEMI, Facultad de Ingeniería",
-            "position": "Desarrollador Frontend (Beca / Contraprestación)",
-            "url": "",
-            "startDate": "06/2025",
-            "endDate": "12/2025",
-            "summary": "Desarrollo de una aplicación web para ayudar a docentes a procesar asistencias a partir de archivos Excel.",
-            "highlights": [
-                "Desarrollo de una aplicación web utilizando React.",
-                "Implementación de funcionalidades para cargar y procesar archivos Excel."
-            ]
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "url": "https://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description…",
-            "highlights": [
-                "Awarded 'Volunteer of the Month'"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "Universidad Tecnológica Nacional",
-            "url": "https://www4.frm.utn.edu.ar/",
-            "area": "Ingeniería en Sistemas de Información",
-            "studyType": "University",
-            "startDate": "2022",
-            "endDate": "Presente",
-            "score": "",
-            "courses": []
-        },
-        {
-            "institution": "Escuela Técnica 4-020 Ing. Gabriel del Mazo",
-            "url": "",
-            "area": "Técnico en Electrónica",
-            "studyType": "Secundario",
-            "startDate": "2015",
-            "endDate": "2021",
-            "score": "",
-            "courses": []
-        }
-    ],
-    "awards": [
-        {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "certificates": [
-        {
-            "name": "Scientific Computing with Python",
-            "date": "30/01/2025",
-            "issuer": "freecodecamp",
-            "url": "https://www.freecodecamp.org/certification/nicolashh192/scientific-computing-with-python-v7"
-        }
-    ],
-    "publications": [
-        {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Arquitectura y Herramientas",
-            "level": "Master",
-            "keywords": [
-                "Microservicios",
-                "Docker",
-                "RabbitMQ",
-                "REST APIs",
-                "Git",
-                "Trello",
-                "CI/CD"
-            ]
-        },
-        {
-            "name": "Lenguajes de Programación",
-            "level": "Master",
-            "keywords": [
-                "JavaScript",
-                "TypeScript",
-                "Python",
-                "Java"
-            ]
-        },
-        {
-            "name": "Frontend",
-            "level": "Junior",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "React",
-                "TailwindCSS",
-                "Figma"
-            ]
-        },
-        {
-            "name": "Backend",
-            "level": "Basic",
-            "keywords": [
-                "Node.js",
-                "Express",
-                "FastAPI",
-                "Spring Boot (basic)"
-            ]
-        },
-        {
-            "name": "Bases de Datos",
-            "level": "Basic",
-            "keywords": [
-                "Sqlite",
-                "PostgreSQL",
-                "PrismaORM"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "Español",
-            "fluency": "Native speaker"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Wildlife",
-            "keywords": [
-                "Ferrets",
-                "Unicorns"
-            ]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane Doe",
-            "reference": "Reference…"
-        }
-    ],
-    "projects": [
-        {
-            "name": "Microservicio de Preguntas para Ecommerce (FastAPI - Python)",
-            "startDate": "",
-            "endDate": "",
-            "description": "Microservicio de preguntas y respuestas con Python, FastAPI y RabbitMQ para comunicación asincrónica entre servicios.",
-            "highlights": [],
-            "url": "https://github.com/NicolashhOcampo/MicroservicioPreguntas"
-        },
-        {
-            "name": "Sistema de Gestión de Inventarios (Express - JavaScript)",
-            "startDate": "",
-            "endDate": "",
-            "description": "Sistema de inventarios en equipo con Node.js, PostgreSQL y Prisma ORM. Gestiona productos, proveedores y órdenes automáticas por stock mínimo.",
-            "highlights": [],
-            "url": "https://github.com/brunolucero19/sistema-inventario-inv-operativa-back"
-        }
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "NicolashhOcampo",
+        "url": "https://github.com/NicolashhOcampo"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "nicolas-ocampo-020b76272",
+        "url": "https://www.linkedin.com/in/nicolas-ocampo-020b76272/"
+      }
     ]
+  },
+  "work": [
+    {
+      "name": "Truckers Talents",
+      "position": "Desarrollador Full Stack (Pasantía)",
+      "url": "",
+      "startDate": "03/2026",
+      "endDate": "06/2026",
+      "summary": "Desarrollo full stack de una aplicación web orientada a la gestión y procesamiento de documentos digitales, ingresando como desarrollador backend y sumando responsabilidades de frontend a medida que el proyecto lo requirió.",
+      "highlights": [
+        "Desarrollo de APIs REST con Node.js, TypeScript y Express para la gestión de templates, documentos y procesos asociados.",
+        "Modelado de datos y persistencia utilizando TypeORM y PostgreSQL.",
+        "Integración con AWS S3 para almacenamiento de archivos y manejo de URLs firmadas.",
+        "Diseño de un middleware de audit logging para rutas de moderación, con tabla particionada mensualmente en PostgreSQL, y un sistema de rotación de backups en S3 basado en cron jobs.",
+        "Construcción e integración de interfaces en Next.js para carga, configuración y activación de documentos."
+      ]
+    },
+    {
+      "name": "Grupo IEMI, Facultad de Ingeniería",
+      "position": "Desarrollador Frontend (Beca / Contraprestación)",
+      "url": "",
+      "startDate": "06/2025",
+      "endDate": "12/2025",
+      "summary": "Desarrollo de una aplicación web para ayudar a docentes a procesar asistencias a partir de archivos Excel.",
+      "highlights": [
+        "Desarrollo end-to-end de una aplicación web con React y TypeScript, desplegada en Vercel.",
+        "Automatización del cruce de registros de asistencia con listados de inscriptos, generando reportes diarios de presentes, ausentes y casos sin coincidencia."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Tecnológica Nacional",
+      "url": "https://www4.frm.utn.edu.ar/",
+      "area": "Ingeniería en Sistemas de Información",
+      "studyType": "University",
+      "startDate": "2022",
+      "endDate": "Presente",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Scientific Computing with Python",
+      "date": "30/01/2025",
+      "issuer": "freecodecamp",
+      "url": "https://www.freecodecamp.org/certification/nicolashh192/scientific-computing-with-python-v7"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend",
+      "level": "Junior",
+      "keywords": [
+        "Node.js",
+        "Express",
+        "TypeORM",
+        "FastAPI",
+        "Zod",
+        "JSON Web Tokens",
+        "bcryptjs",
+        "Multer",
+        "Nodemailer",
+        "Spring Boot (basic)"
+      ]
+    },
+    {
+      "name": "Frontend",
+      "level": "Junior",
+      "keywords": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "HTML",
+        "CSS",
+        "Figma"
+      ]
+    },
+    {
+      "name": "Bases de Datos",
+      "level": "Basic",
+      "keywords": [
+        "PostgreSQL",
+        "Sqlite",
+        "PrismaORM",
+        "TypeORM"
+      ]
+    },
+    {
+      "name": "Lenguajes de Programación",
+      "level": "Master",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "name": "Arquitectura y Herramientas",
+      "level": "Master",
+      "keywords": [
+        "Microservicios",
+        "Docker",
+        "RabbitMQ",
+        "REST APIs",
+        "Git",
+        "Trello",
+        "CI/CD"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Microservicio de Preguntas para Ecommerce (FastAPI - Python)",
+      "startDate": "",
+      "endDate": "",
+      "description": "Microservicio de preguntas y respuestas con Python, FastAPI y RabbitMQ para comunicación asincrónica entre servicios.",
+      "highlights": [],
+      "url": "https://github.com/NicolashhOcampo/MicroservicioPreguntas"
+    },
+    {
+      "name": "Sistema de Gestión de Inventarios (Express - JavaScript)",
+      "startDate": "",
+      "endDate": "",
+      "description": "Sistema de inventarios en equipo con Node.js, PostgreSQL y Prisma ORM. Gestiona productos, proveedores y órdenes automáticas por stock mínimo.",
+      "highlights": [],
+      "url": "https://github.com/brunolucero19/sistema-inventario-inv-operativa-back"
+    }
+  ]
 }
